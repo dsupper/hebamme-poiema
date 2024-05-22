@@ -5,24 +5,50 @@
 }
 
 body{
-  padding: 80px; 
-  color: 255,0,0;
-}
-
-.stage{
-  background-image: url("http://127.0.0.1/baby1.jpg");
-  background-color: rgba(0,0,0,0.5);
-  padding: 1em;
-  min-height: 800px;
+  
+  color: black;
 
 }
 
-.stage-left {
+
+
+.new{
+  column-count: 3;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-width: auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.left {
   text-align: left;
-  padding: 1em;
+  color: white;
+  width: 20%;
+ 
 }
 
-.stage-right {
+.right {
   text-align: left;
-  padding: 1em;
+  color: white;
+ width: 20%;
+
+  
+
+
+}
+
+.img-bg {
+    background-image: url("00-start-1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.transparent {
+  background: #FFFFFF;
+  opacity: 0.4;
 }
