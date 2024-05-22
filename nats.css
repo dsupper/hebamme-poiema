@@ -1,0 +1,28 @@
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  padding: 80px; 
+  color: 255,0,0;
+}
+
+.stage{
+  background-image: url("http://127.0.0.1/baby1.jpg");
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em;
+  min-height: 800px;
+
+}
+
+.stage-left {
+  text-align: left;
+  padding: 1em;
+}
+
+.stage-right {
+  text-align: left;
+  padding: 1em;
+}
